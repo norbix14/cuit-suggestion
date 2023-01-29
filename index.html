@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CUIL</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="root" id="root">
+      <h1>Calcular mi CUIL/CUIT</h1>
+      <div class="form-container">
+        <form class="form" id="form">
+          <label for="dni">DNI</label>
+          <input type="number" name="dni" id="dni" placeholder="DNI" />
+          <button type="submit">Calcular CUIL</button>
+        </form>
+      </div>
+      <div class="sugestion-container">
+        <h2>Sugerencias de CUIL/CUIT</h2>
+        <ul class="sugestions" id="sugestions"></ul>
+      </div>
+    </div>
+    <script src="./cuil.js"></script>
+  </body>
+</html>
